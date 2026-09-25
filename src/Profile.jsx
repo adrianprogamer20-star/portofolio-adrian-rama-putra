@@ -1,10 +1,8 @@
-import Header from "./Header";
 import profileImage from "./assets/DSC_0633 copy.png";
 function Profile() {
   return (
     <>
-    <Header/>
-      <section className="relative w-full overflow-hidden pb-space-2xl pt-7 mt-7">
+      <section id="beranda" className="relative w-full overflow-hidden pb-space-2xl pt-7 mt-7">
         <div className="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-primary-container/10 blur-[120px] pointer-events-none"></div>
         <div className="absolute top-1/3 -right-32 w-[32rem] h-[32rem] rounded-full bg-secondary-container/20 blur-[140px] pointer-events-none"></div>
         <div className="max-w-7xl mx-auto px-margin lg:px-margin-desktop">
@@ -20,7 +18,7 @@ function Profile() {
                 </span>
               </div>
 
-              <div className="flex flex-col gap-space-xs">
+              <div className="flex flex-col gap-space-xs" data-aos="fade-right">
                 <div className="font-code-md text-code-md text-primary-container tracking-wider flex items-center gap-space-xs">
                   <span className="opacity-60">// HALO, SAYA</span>
                   <span className="font-bold text-on-surface">
@@ -38,7 +36,7 @@ function Profile() {
                 </p>
               </div>
 
-              <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+              <p data-aos="fade-right" className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
                 Lulusan S1 Teknik Informatika dengan spesialisasi arsitektur web
                 terdistribusi (React/Laravel, JavaScript, MySQL).
                 Memadukan performa backend tangguh dengan interface modern
@@ -46,7 +44,7 @@ function Profile() {
               </p>
 
               <div className="flex flex-wrap items-center gap-space-md pt-space-xs">
-                <a
+                <a data-aos="zoom-in"
                   className="inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-primary-container text-on-primary-container font-code-md text-code-md font-bold shadow-[0_0_24px_rgba(0,240,255,0.35)] hover:shadow-[0_0_32px_rgba(0,240,255,0.55)] transition-all transform hover:-translate-y-0.5"
                   href="#proyek-unggulan"
                 >
@@ -55,7 +53,7 @@ function Profile() {
                   </span>
                   <span>Lihat Proyek Unggulan</span>
                 </a>
-                <a
+                <a data-aos="zoom-in"
                   className="inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-surface-container-high text-on-surface hover:text-primary-container hover:bg-surface-container-highest font-code-md text-code-md font-semibold transition-all"
                   href="#kontak-kolaborasi"
                 >
@@ -106,7 +104,7 @@ function Profile() {
                   </span>
                 </div>
 
-                <div className="relative w-full aspect-square rounded-2xl overflow-hidden bg-surface-container-low shadow-2xl">
+                <div data-aos="zoom-in" className="relative w-full aspect-square rounded-2xl overflow-hidden bg-surface-container-low shadow-2xl">
                   <img
                     alt="Adrian Rama Putra S.Kom."
                     className="w-full h-full object-cover mt-7"
@@ -114,7 +112,7 @@ function Profile() {
                   <div className="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent opacity-80"></div>
                 </div>
 
-                <div className="relative -mt-16 mx-4 z-30 rounded-xl bg-surface-container-lowest/95 backdrop-blur-xl p-space-md shadow-2xl flex flex-col gap-space-xs">
+                <div data-aos="fade-up" className="relative -mt-16 mx-4 z-30 rounded-xl bg-surface-container-lowest/95 backdrop-blur-xl p-space-md shadow-2xl flex flex-col gap-space-xs">
                   <div className="flex items-center justify-between pb-2">
                     <div className="flex items-center gap-1.5">
                       <div className="w-3 h-3 rounded-full bg-error"></div>
@@ -165,7 +163,7 @@ function Profile() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-space-md mt-space-2xl pt-space-xl">
+          <div data-aos="zoom-in"className="grid grid-cols-2 md:grid-cols-4 gap-space-md mt-space-2xl pt-space-xl">
             <div className="flex flex-col p-space-lg rounded-xl bg-surface-container-low shadow-sm">
               <span className="font-display-hero text-headline-lg lg:text-display-hero text-primary-container font-extrabold tracking-tight">
                 3.82
@@ -177,7 +175,7 @@ function Profile() {
                 S1 Teknik Informatika
               </span>
             </div>
-            <div className="flex flex-col p-space-lg rounded-xl bg-surface-container-low shadow-sm">
+            <div  data-aos="zoom-in"className="flex flex-col p-space-lg rounded-xl bg-surface-container-low shadow-sm">
               <span className="font-display-hero text-headline-lg lg:text-display-hero text-secondary font-extrabold tracking-tight">
                 4+
               </span>
@@ -199,7 +197,7 @@ function Profile() {
                 FinTech & GovTech Labs
               </span>
             </div>
-            <div className="flex flex-col p-space-lg rounded-xl bg-surface-container-low shadow-sm">
+            <div data-aos="zoom-in"className="flex flex-col p-space-lg rounded-xl bg-surface-container-low shadow-sm">
               <span className="font-display-hero text-headline-lg lg:text-display-hero text-primary font-extrabold tracking-tight">
                 99.8%
               </span>

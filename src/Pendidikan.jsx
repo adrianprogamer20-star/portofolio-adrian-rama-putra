@@ -1,15 +1,14 @@
-import Header from "./Header";
+
 function Pendidikan() {
   return (
     <>
-      <Header />
       <section
         className="w-full py-space-2xl bg-surface-container-lowest relative"
-        id="tentang-saya"
+        id="Pendidikan"
       >
         <div className="max-w-7xl mx-auto px-margin lg:px-margin-desktop">
           <div className="flex flex-col gap-space-2xl">
-            <div className="flex flex-col gap-space-xs">
+            <div data-aos="fade-right"className="flex flex-col gap-space-xs">
               <div className="font-code-md text-code-md text-primary-container tracking-wider flex items-center gap-space-xs">
                 <span>[01]</span>
                 <span>TENTANG SAYA & RIWAYAT AKADEMIK</span>
@@ -20,7 +19,7 @@ function Pendidikan() {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop">
-              <div className="lg:col-span-7 flex flex-col justify-between gap-space-lg p-space-xl rounded-2xl bg-surface-container-low">
+              <div  data-aos="fade-right"className="lg:col-span-7 flex flex-col justify-between gap-space-lg p-space-xl rounded-2xl bg-surface-container-low">
                 <div className="flex flex-col gap-space-md">
                   <span className="material-symbols-outlined text-[36px] text-primary-container">
                     psychology
@@ -72,7 +71,7 @@ function Pendidikan() {
                 </div>
               </div>
 
-              <div className="lg:col-span-5 flex flex-col justify-between p-space-xl rounded-2xl bg-surface-container-high relative overflow-hidden">
+              <div data-aos="fade-left" className="lg:col-span-5 flex flex-col justify-between p-space-xl rounded-2xl bg-surface-container-high relative overflow-hidden">
                 <div className="absolute -right-8 -bottom-8 w-44 h-44 rounded-full bg-primary-container/10 blur-3xl pointer-events-none"></div>
                 <div className="flex flex-col gap-space-md">
                   <div className="inline-flex items-center justify-between">

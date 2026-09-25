@@ -3,11 +3,11 @@ function WorkExp() {
     <>
       <section
         className="w-full py-space-2xl bg-surface relative"
-        id="pengalaman-kerja"
+        id="pengalamanind"
       >
         <div className="max-w-7xl mx-auto px-margin lg:px-margin-desktop">
           <div className="flex flex-col gap-space-2xl">
-            <div className="flex flex-col gap-space-xs">
+            <div data-aos="fade-right" className="flex flex-col gap-space-xs">
               <div className="font-code-md text-code-md text-primary-container tracking-wider flex items-center gap-space-xs">
                 <span>[04]</span>
                 <span>PENGALAMAN INDUSTRI & KEPEMIMPINAN</span>
@@ -22,7 +22,7 @@ function WorkExp() {
             </div>
 
             <div className="flex flex-col gap-space-lg relative pl-6 sm:pl-8">
-              <div className="relative flex flex-col p-space-lg rounded-xl bg-surface-container-low shadow-sm">
+              <div data-aos="zoom-in"className="relative flex flex-col p-space-lg rounded-xl bg-surface-container-low shadow-sm">
                 <span className="absolute -left-9 sm:-left-11 top-6 w-5 h-5 rounded-full bg-primary-container flex items-center justify-center">
                   <span className="w-2 h-2 rounded-full bg-surface"></span>
                 </span>
@@ -61,7 +61,7 @@ function WorkExp() {
                 </div>
               </div>
 
-              <div className="relative flex flex-col p-space-lg rounded-xl bg-surface-container-low shadow-sm">
+              <div data-aos="zoom-in"className="relative flex flex-col p-space-lg rounded-xl bg-surface-container-low shadow-sm">
                 <span className="absolute -left-9 sm:-left-11 top-6 w-5 h-5 rounded-full bg-secondary flex items-center justify-center">
                   <span className="w-2 h-2 rounded-full bg-surface"></span>
                 </span>
@@ -100,7 +100,7 @@ function WorkExp() {
                 </div>
               </div>
 
-              <div className="relative flex flex-col p-space-lg rounded-xl bg-surface-container-low shadow-sm">
+              <div data-aos="zoom-in" className="relative flex flex-col p-space-lg rounded-xl bg-surface-container-low shadow-sm">
                 <span className="absolute -left-9 sm:-left-11 top-6 w-5 h-5 rounded-full bg-tertiary-fixed flex items-center justify-center">
                   <span className="w-2 h-2 rounded-full bg-surface"></span>
                 </span>

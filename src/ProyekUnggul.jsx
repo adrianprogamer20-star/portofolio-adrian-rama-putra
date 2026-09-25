@@ -5,11 +5,11 @@ function ProyekUnggul() {
     <>
       <section
         className="w-full py-space-2xl bg-surface-container-lowest relative"
-        id="proyek-unggulan"
+        id="projekapp"
       >
         <div className="max-w-7xl mx-auto px-margin lg:px-margin-desktop">
           <div className="flex flex-col gap-space-2xl">
-            <div className="flex flex-col gap-space-xs">
+            <div className="flex flex-col gap-space-xs" data-aos="fade-right">
               <div className="font-code-md text-code-md text-primary-container tracking-wider flex items-center gap-space-xs">
                 <span>[03]</span>
                 <span>PORTFOLIO & STUDI KASUS</span>
@@ -24,7 +24,7 @@ function ProyekUnggul() {
             </div>
 
             <div className="flex flex-col gap-space-xl">
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop p-space-lg lg:p-space-xl rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all">
+              <div data-aos="zoom-in" className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop p-space-lg lg:p-space-xl rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all">
                 <div className="lg:col-span-6 flex flex-col justify-between rounded-xl overflow-hidden bg-surface-container-lowest p-space-md">
                   <div className="flex items-center justify-between pb-space-sm">
                     <div className="flex items-center gap-1.5">
@@ -112,7 +112,7 @@ function ProyekUnggul() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop p-space-lg lg:p-space-xl rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all">
+              <div  data-aos="zoom-in" className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop p-space-lg lg:p-space-xl rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all">
                 <div className="lg:col-span-6 flex flex-col justify-between rounded-xl overflow-hidden bg-surface-container-lowest p-space-md">
                   <div className="flex items-center justify-between pb-space-sm">
                     <div className="flex items-center gap-1.5">

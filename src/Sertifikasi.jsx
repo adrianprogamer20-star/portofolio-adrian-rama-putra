@@ -1,16 +1,15 @@
-import Header from "./Header";
 function Sertifikasi() {
   return (
     <>
-      <Header />
+  
       <section
         className="w-full py-space-2xl bg-surface relative"
-        id="keahlian-teknis"
+        id="techstack"
       >
         <div className="max-w-7xl mx-auto px-margin lg:px-margin-desktop">
           <div className="flex flex-col gap-space-2xl">
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
-              <div className="flex flex-col gap-space-xs">
+              <div className="flex flex-col gap-space-xs" data-aos="fade-right">
                 <div className="font-code-md text-code-md text-primary-container tracking-wider flex items-center gap-space-xs">
                   <span>[02]</span>
                   <span>TECH STACK & CAPABILITY MATRIX</span>
@@ -19,13 +18,13 @@ function Sertifikasi() {
                   Teknologi & Arsitektur yang Dikuasai
                 </h2>
               </div>
-              <p className="font-body-md text-body-md text-on-surface-variant max-w-md">
+              <p  data-aos="fade-up"className="font-body-md text-body-md text-on-surface-variant max-w-md">
                 Dipilih dengan standar industri untuk membangun sistem siap
                 produksi, aman, dan mudah dimaintain.
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-desktop">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-desktop" data-aos="zoom-in">
               <div className="flex flex-col p-space-lg rounded-xl bg-surface-container-low hover:bg-surface-container transition-all">
                 <div className="flex items-center justify-between pb-space-md">
                   <span className="material-symbols-outlined text-[28px] text-primary-container">

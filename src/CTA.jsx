@@ -7,7 +7,7 @@ function CTA() {
       >
         <div className="max-w-7xl mx-auto px-margin lg:px-margin-desktop">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop">
-            <div className="lg:col-span-5 flex flex-col justify-between gap-space-xl">
+            <div data-aos="fade-right" className="lg:col-span-5 flex flex-col justify-between gap-space-xl">
               <div className="flex flex-col gap-space-md">
                 <div className="font-code-md text-code-md text-primary-container tracking-wider flex items-center gap-space-xs">
                   <span>[05]</span>
@@ -92,7 +92,7 @@ function CTA() {
               </div>
             </div>
 
-            <div className="lg:col-span-7 flex flex-col p-space-xl rounded-2xl bg-surface-container-low shadow-xl">
+            <div data-aos="fade-left"className="lg:col-span-7 flex flex-col p-space-xl rounded-2xl bg-surface-container-low shadow-xl">
               <form className="flex flex-col gap-space-md" id="contactForm">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
                   <div className="flex flex-col gap-1.5">

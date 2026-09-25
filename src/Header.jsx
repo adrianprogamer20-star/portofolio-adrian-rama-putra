@@ -17,7 +17,7 @@ function Header() {
             >
               <span className="text-primary-container"></span>
               <span className="font-semibold text-on-surface">
-                Dev.Informatics
+                Informatics
               </span>
               <span className="text-primary-container"></span>
             </a>
@@ -29,7 +29,7 @@ function Header() {
             <a
               className="px-space-md py-space-xs rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all"
               data-path="tentang"
-              href="#"
+              href=""
             >
               Tentang
             </a>

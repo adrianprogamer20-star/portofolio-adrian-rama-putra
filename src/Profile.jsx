@@ -46,7 +46,7 @@ function Profile() {
               <div className="flex flex-wrap items-center gap-space-md pt-space-xs">
                 <a data-aos="zoom-in"
                   className="inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-primary-container text-on-primary-container font-code-md text-code-md font-bold shadow-[0_0_24px_rgba(0,240,255,0.35)] hover:shadow-[0_0_32px_rgba(0,240,255,0.55)] transition-all transform hover:-translate-y-0.5"
-                  href="#proyek-unggulan"
+                  href="#projekapp"
                 >
                   <span className="material-symbols-outlined text-[18px]">
                     rocket_launch
@@ -65,7 +65,7 @@ function Profile() {
                 <div className="flex items-center gap-space-xs pl-space-xs">
                   <a
                     className="p-2.5 rounded-lg bg-surface-container-low text-on-surface-variant hover:text-primary-container hover:bg-surface-container transition-all"
-                    href="https://github.com"
+                    href="https://github.com/adrianprogamer20-star"
                     rel="noreferrer"
                     target="_blank"
                     title="GitHub Profile"
@@ -76,7 +76,7 @@ function Profile() {
                   </a>
                   <a
                     className="p-2.5 rounded-lg bg-surface-container-low text-on-surface-variant hover:text-primary-container hover:bg-surface-container transition-all"
-                    href="https://linkedin.com"
+                    href="https://linkedin.com/in/adrian-rama-putra-4766b33ba"
                     rel="noreferrer"
                     target="_blank"
                     title="LinkedIn Profile"

@@ -3,7 +3,7 @@ function Sertifikasi() {
     <>
   
       <section
-        className="w-full py-space-2xl bg-surface relative"
+        className="w-full py-space-2xl bg-surface relative overflow-hidden"
         id="techstack"
       >
         <div className="max-w-7xl mx-auto px-margin lg:px-margin-desktop">

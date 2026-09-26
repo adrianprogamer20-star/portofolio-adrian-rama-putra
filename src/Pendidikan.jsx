@@ -3,7 +3,7 @@ function Pendidikan() {
   return (
     <>
       <section
-        className="w-full py-space-2xl bg-surface-container-lowest relative"
+        className="w-full py-space-2xl bg-surface-container-lowest relative overflow-hidden"
         id="Pendidikan"
       >
         <div className="max-w-7xl mx-auto px-margin lg:px-margin-desktop">

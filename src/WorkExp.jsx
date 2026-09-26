@@ -2,7 +2,7 @@ function WorkExp() {
   return (
     <>
       <section
-        className="w-full py-space-2xl bg-surface relative"
+        className="w-full py-space-2xl bg-surface relative overflow-hidden"
         id="pengalamanind"
       >
         <div className="max-w-7xl mx-auto px-margin lg:px-margin-desktop">

@@ -33,7 +33,7 @@ function ProyekUnggul() {
                       <span className="w-2.5 h-2.5 rounded-full bg-tertiary-fixed"></span>
                     </div>
                     <span className="font-code-sm text-code-sm text-outline">
-                      app.omniflow.io
+                      adrianprogramer20-star.github.io
                     </span>
                   </div>
                   <div className="relative w-full aspect-video rounded-lg overflow-hidden bg-surface-container-high">
@@ -121,7 +121,7 @@ function ProyekUnggul() {
                       <span className="w-2.5 h-2.5 rounded-full bg-tertiary-fixed"></span>
                     </div>
                     <span className="font-code-sm text-code-sm text-outline">
-                      api.medisync.internal
+                      adrianprogramer20-star.github.io
                     </span>
                   </div>
                   <div className="relative w-full aspect-video rounded-lg overflow-hidden bg-surface-container-high">

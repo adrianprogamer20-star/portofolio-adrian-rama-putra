@@ -2,7 +2,7 @@ function CTA() {
   return (
     <>
       <section
-        className="w-full py-space-2xl bg-surface-container-lowest relative"
+        className="w-full py-space-2xl bg-surface-container-lowest relative overflow-hidden"
         id="kontak-kolaborasi"
       >
         <div className="max-w-7xl mx-auto px-margin lg:px-margin-desktop">

@@ -1,5 +1,6 @@
 import auli from "./assets/Screenshot (445).png";
 import smp from "./assets/Screenshot (391).png";
+import personalproject from "./assets/Screenshot (459).png";
 function ProyekUnggul() {
   return (
     <>
@@ -112,6 +113,86 @@ function ProyekUnggul() {
                 </div>
               </div>
 
+              <div  data-aos="zoom-in" className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop p-space-lg lg:p-space-xl rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all">
+                <div className="lg:col-span-6 flex flex-col justify-between rounded-xl overflow-hidden bg-surface-container-lowest p-space-md">
+                  <div className="flex items-center justify-between pb-space-sm">
+                    <div className="flex items-center gap-1.5">
+                      <span className="w-2.5 h-2.5 rounded-full bg-error"></span>
+                      <span className="w-2.5 h-2.5 rounded-full bg-yellow-500"></span>
+                      <span className="w-2.5 h-2.5 rounded-full bg-tertiary-fixed"></span>
+                    </div>
+                    <span className="font-code-sm text-code-sm text-outline">
+                      adrianprogramer20-star.github.io
+                    </span>
+                  </div>
+                  <div className="relative w-full aspect-video rounded-lg overflow-hidden bg-surface-container-high">
+                    <img
+                      className="w-full h-full object-cover"
+                      data-alt="Technical dashboard mockup for MediSync Telemedicine API engine showing interactive API swagger documentation, telemetry charts, throughput metrics, JWT security authorization headers, and microservice status nodes in dark tech styling with violet and cyan glows."
+                      src={personalproject}
+                    />
+                  </div>
+                  <div className="pt-space-sm flex items-center justify-between font-code-sm text-code-sm text-outline">
+                    <span>Accurate: 90%</span>
+                    <span className="text-secondary">HIPAA Compliant Log</span>
+                  </div>
+                </div>
+
+                <div className="lg:col-span-6 flex flex-col justify-between gap-space-md">
+                  <div className="flex flex-col gap-space-sm">
+                    <div className="flex items-center justify-between">
+                      <span className="font-code-sm text-code-sm text-secondary font-semibold tracking-wider">
+                        PERSONAL PROJECT
+                      </span>
+                      <span className="font-code-md text-code-md text-outline font-bold">
+                        [03]
+                      </span>
+                    </div>
+                    <h3 className="font-headline-md text-headline-md text-on-surface font-bold">
+                      Aplikasi Monitoring dan Kontrol Perangkat Komputer Berbasis Web dengan Fitur Screenshot Otomatis
+                    </h3>
+                    <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                     Aplikasi berbasis web yang memungkinkan pengguna untuk memantau dan mengontrol perangkat komputer dari jarak jauh. Fitur utama termasuk pengambilan screenshot otomatis, deteksi aktivitas diluar pekerjaan, dan pengiriman notifikasi real-time. Aplikasi ini dirancang untuk meningkatkan produktivitas dan keamanan dalam lingkungan kerja.
+                    </p>
+
+                    <div className="flex flex-wrap gap-2 pt-2">
+                      <span className="px-2.5 py-1 rounded-md bg-surface-container-high font-code-sm text-code-sm text-secondary">
+                       Laravel 12 ( PHP 8.2)
+                      </span>
+                      <span className="px-2.5 py-1 rounded-md bg-surface-container-high font-code-sm text-code-sm text-tertiary-fixed">
+                        MySQL
+                      </span>
+                      <span className="px-2.5 py-1 rounded-md bg-surface-container-high font-code-sm text-code-sm text-primary-container">
+                        Tailwind CSS
+                      </span>
+                      <span className="px-2.5 py-1 rounded-md bg-surface-container-high font-code-sm text-code-sm text-on-surface">
+                        JavaScript
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-space-md pt-space-sm">
+                    <a
+                      className="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-lg bg-secondary text-on-secondary font-code-sm text-code-sm font-bold shadow-sm hover:shadow-[0_0_20px_rgba(208,188,255,0.4)] transition-all"
+                      href="#"
+                    >
+                      <span className="material-symbols-outlined text-[16px]">
+                        menu_book
+                      </span>
+                      <span>API Docs (Swagger)</span>
+                    </a>
+                    <a
+                      className="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-lg bg-surface-container-highest text-on-surface hover:text-secondary font-code-sm text-code-sm font-semibold transition-all"
+                      href="#"
+                    >
+                      <span className="material-symbols-outlined text-[16px]">
+                        code
+                      </span>
+                      <span>GitHub Repository</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
               <div  data-aos="zoom-in" className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop p-space-lg lg:p-space-xl rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all">
                 <div className="lg:col-span-6 flex flex-col justify-between rounded-xl overflow-hidden bg-surface-container-lowest p-space-md">
                   <div className="flex items-center justify-between pb-space-sm">

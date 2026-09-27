@@ -217,7 +217,7 @@ function CTA() {
             <a
               aria-label="GitHub"
               className="w-9 h-9 flex items-center justify-center rounded-lg bg-surface-container-high text-on-surface-variant hover:text-primary-container hover:bg-surface-container-highest transition-all"
-              href="https://github.com"
+              href="https://github.com/adrianprogamer20-star"
               rel="noreferrer"
               target="_blank"
             >
@@ -226,7 +226,7 @@ function CTA() {
             <a
               aria-label="LinkedIn"
               className="w-9 h-9 flex items-center justify-center rounded-lg bg-surface-container-high text-on-surface-variant hover:text-primary-container hover:bg-surface-container-highest transition-all"
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/adrian-rama-putra-4766b33ba"
               rel="noreferrer"
               target="_blank"
             >
@@ -237,7 +237,7 @@ function CTA() {
             <a
               aria-label="Email"
               className="w-9 h-9 flex items-center justify-center rounded-lg bg-surface-container-high text-on-surface-variant hover:text-primary-container hover:bg-surface-container-highest transition-all"
-              href="mailto:engineer@example.com"
+              href="adrianrama1453@gmail.com"
             >
               <span className="material-symbols-outlined text-[18px]">
                 alternate_email
@@ -246,7 +246,7 @@ function CTA() {
             <a
               aria-label="LeetCode"
               className="w-9 h-9 flex items-center justify-center rounded-lg bg-surface-container-high text-on-surface-variant hover:text-primary-container hover:bg-surface-container-highest transition-all"
-              href="https://leetcode.com"
+              href="https://journal.fkom.uniku.ac.id/ilkom/article/view/564/169"
               rel="noreferrer"
               target="_blank"
             >

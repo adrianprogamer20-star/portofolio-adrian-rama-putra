@@ -8,7 +8,7 @@ function Profile() {
         <div className="max-w-7xl mx-auto px-margin lg:px-margin-desktop">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
             <div className="lg:col-span-7 flex flex-col gap-space-lg">
-              <div className="inline-flex items-center gap-space-xs self-start px-space-md py-1.5 rounded-full bg-surface-container-high shadow-inner">
+              <div className="inline-flex items-center gap-space-xs self-start px-space-md py-1.5 rounded-full bg-surface-container-high mt-4 shadow-inner">
                 <span className="relative flex h-2.5 w-2.5">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary-fixed opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-tertiary-fixed"></span>
@@ -37,7 +37,7 @@ function Profile() {
               </div>
 
               <p data-aos="fade-right" className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
-                Lulusan S1 Teknik Informatika dengan spesialisasi arsitektur web
+                Lulusan S1 Informatika dengan spesialisasi arsitektur web
                 terdistribusi (React/Laravel, JavaScript, MySQL).
                 Memadukan performa backend tangguh dengan interface modern
                 berfokus penuh pada kenyamanan pengguna.
@@ -136,7 +136,7 @@ function Profile() {
                     <p className="pl-4">
                       degree:
                       <span className="text-tertiary">
-                        'S.Kom - Teknik Informatika'
+                        'S.Kom - Informatika'
                       </span>
                       ,
                     </p>
@@ -172,7 +172,7 @@ function Profile() {
                 IPK (Cum Laude)
               </span>
               <span className="font-body-sm text-body-sm text-on-surface-variant">
-                S1 Teknik Informatika
+                S1 Informatika
               </span>
             </div>
             <div  data-aos="zoom-in"className="flex flex-col p-space-lg rounded-xl bg-surface-container-low shadow-sm">
